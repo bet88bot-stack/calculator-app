@@ -15,7 +15,11 @@ Logs are in `evidence/`. The final working tree contains the correct addition.
 2. intentional bug to test CI
 3. fix calculator addition
 
-## GitHub execution pending
-Create `bet88bot-stack/calculator-app`, then push each commit separately, waiting for its Actions run to finish before pushing the next commit. This preserves the successful, failed, and restored runs required for demonstration.
+## GitHub execution
+Repository: https://github.com/bet88bot-stack/calculator-app
+
+- Initial successful run: https://github.com/bet88bot-stack/calculator-app/actions/runs/40308764000
+- Intentional bug run: https://github.com/bet88bot-stack/calculator-app/actions/runs/40308939631
 
 The workflow builds on pushes and pull requests to main, packages the JAR, and uploads test reports and the JAR as artifacts.
+
